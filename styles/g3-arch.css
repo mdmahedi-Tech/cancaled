@@ -145,7 +145,13 @@ text-decoration: none;
 
   }
   .features-container{
+
     margin-left: 25px;
+  }
+  .facts-container{
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 25px;
   }
 }
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -154,5 +160,10 @@ text-decoration: none;
   }
   .features-container{
     margin: 25px auto;
+  }
+  .facts-container{
+   grid-template-columns:repeat(2,1fr);
+   gap: 25px;
+   justify-items: center;
   }
 }
