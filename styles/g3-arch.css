@@ -181,6 +181,16 @@ font-weight: 700;
 .sponsor-company img{
 filter: grayscale(100%);
 }
+/* footer start */
+footer{
+   background-color: rgba(255,144,14,0.1);
+   text-align: center;
+   margin-top: 130px;
+   margin-bottom: 100px;
+   
+}
+.text-light-gray{
+  padding: 40px 100px;}
 /* responsive with media query*/
 @media screen and (max-width:576px) {
   .navbar, 
