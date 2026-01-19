@@ -102,6 +102,41 @@ text-decoration: none;
 #Features{
   color:orange;
 }
+/* features section start */
+.features{
+  gap: 120px;
+}
+#tittle-section-features{
+  border-left: 5px solid orange;
+  padding-left: 20px;
+}
+.features-card-tittle{
+  font-weight: 600;
+  font-size: 1.25rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  
+}
+.features-card{
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px 0 rgba(0,0,0,0.06);
+  margin-bottom: 20px;
+}
+#experience-badge{
+  padding: 45px 42px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+#experience-year{
+font-size: 4rem;
+font-weight: 700;
+}
+.features-architect img{
+  width: 100%;
+}
 /* some facts features start */
 .facts-container  {
   display: grid;
@@ -150,7 +185,8 @@ filter: grayscale(100%);
 @media screen and (max-width:576px) {
   .navbar, 
   .nav-links,
-  .team{
+  .team,
+  .features{
     flex-direction: column;
   }
   .img-container{
@@ -172,9 +208,13 @@ filter: grayscale(100%);
   justify-items:center;
   gap: 50px;
   }
+  #experience-badge{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
 }
 @media screen and (min-width:576px) and (max-width:992px) {
-  .team{
+  .team,.features{
     flex-direction: column;
   }
   .features-container{
@@ -189,5 +229,9 @@ filter: grayscale(100%);
   grid-template-columns:repeat(3,1fr);
   justify-items:center;
   gap: 30px;
+  }
+  #experience-badge{
+    margin-top: 20px;
+    margin-left: 20px;
   }
 }
